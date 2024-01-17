@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shafa Marwah Studio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Shafa Marwah Studio -->
+  <link href="assets/img/icon/logo1.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.10.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+ <!-- ======= wa bar ======= -->
+ <a>
+  <button class="btn-float lgsm">
+    <a href="About.html"  target="_blank"><img src="assets/img/icon/logo2.png" id="ic"></i></a>
+  </button>
+</a>
+
+<a target="_blank">
+  <button class="btn-floating whatsapp">
+    <span>0811-2115-630</span>
+    <a href="https://api.whatsapp.com/send?phone=628112115630" ><i class="bx bxl-whatsapp"></i></a>
+  </button>
+</a>
+
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="About.html" class="nav-link scrollto active"><img src="assets/img/icon/logo1.png"id="logo"></i> <span>About</span></a></li>
+        <li><a href="index.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Beranda</span></a></li>
+        <li><a href="Services.html" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="portfolio.html" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portofolio</span></a></li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+
+  </header><!-- End Header -->
+  <main id="main">
+
+
+
+<!-- panorama -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="assets/py/generate.py"></script>
+     <!-- Menentukan tinggi image 360 -->
+     <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+      #pannellum-image-360 {
+          height: 480px;
+      }
+  </style>
+</head>
+
+<body>
+  <div id="pannellum-image-360"></div>
+  <script>
+      // parameter pertama adalah id (target) element
+      // parameter kedua adalah option nya
+      pannellum.viewer('pannellum-image-360', {
+          default: {
+              // scene yang akan ditampilkan pertama kali
+              firstScene: 'depan',
+              author: 'Shafa Marwah Studio',
+              sceneFadeDuration: 1000
+          },
+          scenes: {
+            depan: {
+                  title: 'Living Room',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/sjHJ5dX/a-large-living-room-with-a-large-glass-wall-atk4vxoi.jpg',
+                  "autoLoad": true,
+                   autoRotate: -3,
+                   "compass": true,
+                   "northOffset": -150.5,
+                  hotSpots: [
+                      {
+                          pitch: 0,
+                          yaw: -75,
+                          type: 'scene',
+                          text: 'Kitchen',
+                          sceneId: 'jfk'
+                      },
+                      {
+                          pitch: 0,
+                          yaw: -115,
+                          type: 'scene',
+                          text: 'Kamar',
+                          sceneId: 'Kamar'
+                      },
+                      {
+                           "pitch": -30,
+                           "yaw": 5,
+                           "type": "info",
+                            "text": "Living Room",
+                            "URL": ""
+                       },
+                       {
+                           "pitch": -3,
+                           "yaw": -88,
+                           "type": "info",
+                            "text": "Dining Room",
+                            "URL": ""
+                       },
+                       {
+                           "pitch": -3,
+                           "yaw": -105,
+                           "type": "info",
+                            "text": "Dry Kitchen Area",
+                            "URL": ""
+                       },
+                  ]
+              },
+              jfk: {
+                  title: 'JFK',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/Wgnpsxb/home-interior-architecture-mzsosw8o.jpg',
+                  "autoLoad": true,
+                   "autoRotate": -3,
+                   "compass": true,
+                   "northOffset": 247.5,
+                  hotSpots: [
+                      {
+                          pitch: -3,
+                          yaw: 102,
+                          type: 'scene',
+                          text: 'Living Room',
+                          sceneId: 'depan'
+                      },
+                      {
+                          pitch: -13,
+                          yaw: -23,
+                          "type": "info",
+                            "text": "Area Santai",
+                            "URL": ""
+                      },
+                      {
+                          pitch: -25,
+                          yaw: -115,
+                          "type": "info",
+                            "text": "Area TV",
+                            "URL": ""
+                      }
+                  ]
+              },
+              Kamar: {
+                  title: 'ar',
+                  pitch: 0,
+                  yaw: 0,
+                  hfov: 100,
+                  type: 'equirectangular',
+                  panorama: 'https://i.ibb.co/z7ZM0xC/tu09tpc-a-large-bed-in-a-room.jpg',
+                  "autoLoad": true,
+                   "autoRotate": -3,
+                  hotSpots: [
+                      {
+                          pitch: 0,
+                          yaw: 20,
+                          type: 'scene',
+                          text: 'Depan',
+                          sceneId: 'depan'
+                      },
+                      {
+                          pitch: 0,
+                          yaw: 122,
+                          "type": "info",
+                            "text": "WC",
+                            "URL": ""
+                      }
+                  ]
+              }
+              
+          }
+      });
+  </script>
+</script>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portofolio</h2>
+          <p>Temukan Desain Rumah Impian Anda !!!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">semua</li>
+              <li data-filter=".filter-ex">arsitektur</li>
+              <li data-filter=".filter-in">Interior</li>
+              <li data-filter=".filter-lan">Landskap</li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/a1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RT 1</h4>
+                <p>3 Lantai</p>
+                <div   class="portfolio-links">
+                  <a href="rt1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/b1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RT 2</h4>
+                <p>2 Lantai</p>
+                <div class="portfolio-links">
+                  <a href="rt2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/in/a1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>interior 1</h4>
+                <p>ruang keluarga</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/in/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR 1"><i class="bx bx-plus"></i></a> -->
+                  <a href="in1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/c1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RT 3</h4>
+                <p>2 Lantai</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/ex/c1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 3"><i class="bx bx-plus"></i></a> -->
+                  <a href="rt3.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/d1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RT 4</h4>
+                <p>2 Lantai</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/ex/d1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 4"><i class="bx bx-plus"></i></a> -->
+                  <a href="rt4.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/in/e2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>interior 5</h4>
+                <p>Kamar Tidur</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/in/e2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="KAMAR TIDUR"><i class="bx bx-plus"></i></a> -->
+                  <a href="in5.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/e1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RT 5</h4>
+                <p>2 Lantai</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/ex/e1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 5"><i class="bx bx-plus"></i></a> -->
+                  <a href="rt5.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ex">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ex/f1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Rt 6</h4>
+                <p>2 Lantai</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/ex/f1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="RT 6"><i class="bx bx-plus"></i></a> -->
+                  <a href="rt6.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-in">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/in/b2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>interior 2</h4>
+                <p>Interior Toko</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/in/b2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                  <a href="in2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-lan">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/lan/a3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Landscaping</h4>
+                <p>Taman Belakang</p>
+                <div class="portfolio-links">
+                  <!-- <a href="assets/img/portfolio/lan/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="INTERIOR TOKO"><i class="bx bx-plus"></i></a> -->
+                  <a href="lan1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+<!-- footer -->
+
+<footer id="footer" class="bg-one">
+  <div class="top-footer">
+    <h2>Shafa Marwah Studio</h2>
+    <h3>design and build</h3><br><br><br>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <img src="assets/img/icon/logo2.png" id="img-foot" alt="">
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <!-- <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <h3>layanan kami</h3>
+          <p>shafa marwah studio adalah Perusahaan Jasa Arsitek yang berkantor di Bandung, cakupan pelayanan seluruh Dunia, bisa 100% online.</p>
+        </div> -->
+        <!-- End of .col-sm-3 -->
+
+        <!-- <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+              <h3>Alamat Kantor</h3>
+           <p> perum puri kumala residence no. 3c, kec. ujungberung, kota bandung, 444444</p>
+        </div> -->
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-lg-3 col-md-6">
+              <h3>Connect with us Socially</h3>
+            <br>
+            <br>
+            <div class="social-links">
+              <a href="https://api.whatsapp.com/send?phone=628112115630" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/shafa_marwah.studio/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+        
+        </div>
+        <!-- End of .col-sm-3 -->
+
+      </div>
+    </div> <!-- end container -->
+  </div>
+  <br><br><br>
+  <div class="footer-bottom">
+    <c>&copy; Copyright 2023. All rights reserved.</c><br>
+    <c>Design and Developed by <a href="">shafa marwah studio</a></c>
+  </div>
+</footer> <!-- end footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+    }
+  
+  </script>
+
+</body>
+
+</html>
